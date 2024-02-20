@@ -93,3 +93,30 @@ public class HelloWorld{
 // 注释的时候请不要嵌套
 ```
 
+定义数据类型中的注意事项
+
+Long类型变量需要加L标识符（大小写都可以），float类型需要加入F标识符（大小写都可以）。
+
+## 标识符
+
+- 硬性要求
+
+  数字、字母、下划线和$组成，不可以用数字开头，不能是关键字且区分大小写。
+
+- 软性建议（简明知意）
+
+​	小驼峰：方法和变量
+
+​	一个单词小写，多个单词从第二个起大写。
+
+` String name = "kangyinhu"; String firstName = "kang"; String lastName = "yinhu";`
+
+​	大驼峰：类 
+
+​	一个单词大写，多个单词全部大写。
+
+project项目 module模块 package包 class类
+
+## 运算符
+
+byte, short, char 在进行运算的时候都会先提升为int类型。
