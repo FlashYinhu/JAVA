@@ -1,6 +1,6 @@
-import UiDemo.GameJFrame;
-import UiDemo.LoginJFrame;
-import UiDemo.RegisterJFrame;
+import com.kyh.learn.UiDemo.GameJFrame;
+import com.kyh.learn.UiDemo.LoginJFrame;
+import com.kyh.learn.UiDemo.RegisterJFrame;
 
 public class UidemoTest {
     public static void main(String[] args) {
