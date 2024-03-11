@@ -24,6 +24,8 @@ public class DeepAndShallowClone {
         System.out.println(student2);
         System.out.println(student3); // 深克隆 当原对象改变时 新对象不改变
 
+        student3.printTest();
+
         // 第三方对象导入包
 
     }

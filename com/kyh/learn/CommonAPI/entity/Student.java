@@ -64,4 +64,9 @@ public class Student implements Cloneable {
         student.path = newpath;
         return student;
     }
+
+    public void printTest(){
+        System.out.println(this);
+    }
+
 }
